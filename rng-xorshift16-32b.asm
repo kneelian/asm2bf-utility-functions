@@ -109,7 +109,7 @@ end
   
 ; assuming a 32 bit cell
 ; takes 2 inputs on stack, returns 1 on stack
-; combines 2 PRNG 8 bit outputs into one 16 bit RN
+; combines 2 PRNG outputs into one twice-wide RN
 ; make sure that you vary the called functions  
 
 @rnd_combine
